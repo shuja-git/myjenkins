@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('One') {
             steps {
-                echo 'One World'
+                echo 'First Stage'
             }
         }
         stage('Two') {
             steps {
-                echo 'Two World'
+                echo 'Second Stage'
             }
         }
         stage('Three') {
             steps {
-                echo 'Three World'
+                echo 'Third Stage'
             }
         }
     }
